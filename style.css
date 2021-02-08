@@ -1,0 +1,35 @@
+.container {
+    padding: 150px 0;
+}
+
+.timer {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.cards {
+    margin: auto;
+    width: 400px;
+}
+
+.card {
+    background: linear-gradient(to top right, #fdfbfb, #eaedee);
+    display: inline-block;
+    border-radius: 10px;
+    height: 90px;
+    width: 90px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    line-height: 90px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 10px 1px #ddd;
+}
+
+.card p {
+    font-size: 16px;
+}
+
